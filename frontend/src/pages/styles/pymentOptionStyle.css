@@ -1,0 +1,43 @@
+.paymentOption {
+    padding: 0 50px;
+    margin: 100px 0;
+    user-select: none;
+
+}
+
+.paymentSuggestion{
+    width: 100%;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.option-container{
+    height: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    cursor: pointer;
+
+}
+.option.type{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.option.detail{
+    font-size: 18px;
+    color: grey;
+}
+
+.option.amount{
+    font-size: 45px;
+    font-weight: bold;
+    color: #00b894;
+}

@@ -1,0 +1,36 @@
+.payment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    user-select: none;
+}
+
+.payment-type {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    gap: 70px;
+}
+
+.paypal,.chapa {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.paypal img, .chapa img {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.payment-desc {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}

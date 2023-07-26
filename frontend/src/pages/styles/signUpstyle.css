@@ -1,0 +1,68 @@
+.signUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.local--auth{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    
+}
+
+.local--auth label{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.local--auth input{
+    height: 40px;
+    width: 300px;
+    outline: none;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.local--auth button{
+    padding: 5px 20px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    background-color: #d7e3fc;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.error {
+    margin: 5px 0;
+    color: red;
+  }
+
+
+.gmail {
+    /* height: 50px; */
+    display: inline-block;
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+
+
+}
+
+.gmail img {
+    width: 80px;
+    height: 80px;
+}
+
+.gmail a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+}

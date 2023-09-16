@@ -13,8 +13,8 @@ const paypal = require('paypal-rest-sdk');
 // paypal configuration
 paypal.configure({
   'mode': 'sandbox', //sandbox or live
-  'client_id': 'AVtmwNjRnPZcwLSMh5DC0u2oKKnWX8DpMrWDD1XbwjctPRZN63JGtdZB-LfIyehcTJQSz69DVH17PZ3e',
-  'client_secret': 'EMXylVYnlrkX6ts7BYDI2k3pw-LsDGC7HKCKWCINvTvnILow3zBliO5TTV1vJEbLsxjWdcLH_SlnhSwO'
+  'client_id': '',
+  'client_secret': ''
 });
 
 
@@ -39,7 +39,7 @@ app.use(session({
   resave: false,
   saveUninitialized: true,
   store: MongoStore.create({ 
-    mongoUrl:'mongodb+srv://tofikabdu:kHGpnyqMpJ8yhpcW@nodejsauth.heonew2.mongodb.net/' ,
+    mongoUrl:'' ,
     collectionName : 'session'
   }),
   cookie: { 
